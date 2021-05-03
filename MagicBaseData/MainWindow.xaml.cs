@@ -84,7 +84,7 @@ namespace MagicBaseData
                     Foreground = Brushes.Orange,
                     FontWeight = FontWeights.Bold
                 };
-                ErrorWindow p = new();
+                ErrorWindow p = new ErrorWindow();
                 p.Content = label;
                 p.ShowDialog();
                 

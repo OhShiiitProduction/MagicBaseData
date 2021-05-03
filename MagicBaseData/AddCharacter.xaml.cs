@@ -29,7 +29,7 @@ namespace MagicBaseData
         {
             InitializeComponent();
             daddyWindow = window;
-            rnd = new();
+            rnd = new Random();
         }
 
 
@@ -51,7 +51,7 @@ namespace MagicBaseData
             }
             else
             {
-                ErrorWindow p = new();
+                ErrorWindow p = new ErrorWindow();
                 p.ShowDialog();
             }
         }

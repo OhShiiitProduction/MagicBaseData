@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicBaseData", "MagicBaseData\MagicBaseData.csproj", "{60135CDE-D3A8-4DD5-AEFD-67157F2DFCA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicBaseData", "MagicBaseData\MagicBaseData.csproj", "{60135CDE-D3A8-4DD5-AEFD-67157F2DFCA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicBaseDataTests2", "MagicBaseDataTests2\MagicBaseDataTests2.csproj", "{0B7F51A6-8135-4B1D-8E6F-D1B6988DE05D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{60135CDE-D3A8-4DD5-AEFD-67157F2DFCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60135CDE-D3A8-4DD5-AEFD-67157F2DFCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60135CDE-D3A8-4DD5-AEFD-67157F2DFCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7F51A6-8135-4B1D-8E6F-D1B6988DE05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7F51A6-8135-4B1D-8E6F-D1B6988DE05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7F51A6-8135-4B1D-8E6F-D1B6988DE05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7F51A6-8135-4B1D-8E6F-D1B6988DE05D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

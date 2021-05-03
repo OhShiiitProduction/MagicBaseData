@@ -53,7 +53,7 @@ namespace MagicBaseData
             }
             else
             {
-                ErrorWindow p = new()
+                ErrorWindow p = new ErrorWindow()
                 {
                     WindowStartupLocation = WindowStartupLocation.CenterOwner
                 };
