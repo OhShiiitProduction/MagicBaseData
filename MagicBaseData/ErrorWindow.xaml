@@ -1,0 +1,12 @@
+﻿<Window x:Class="MagicBaseData.ErrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MagicBaseData"
+        mc:Ignorable="d"
+        Title="ErrorWindow" Height="120" Width="120" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Label Content="Invalid values!" Margin="8,20,8,20" FontWeight="Bold" FontSize="14" Foreground="#FFDD6C00"/>
+    </Grid>
+</Window>
