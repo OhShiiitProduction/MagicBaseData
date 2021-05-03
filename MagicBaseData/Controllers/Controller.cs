@@ -15,7 +15,7 @@ namespace MagicBaseData.Controllers
         private static Controller instance;
         private List<Magician> data;
 
-        private Controller() {
+        private Controller () {
             data = new List<Magician>();
         }
         public static Controller GetInstance()
