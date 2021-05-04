@@ -11,7 +11,7 @@ namespace MagicBaseDataTests2.Controllers
     public class ControllerTests
     {
         [TestMethod]
-        public void SearchTest()
+        public void SearchTest_ReturnValidData()
         {
             var controller = Controller.GetInstance();
             controller.Create(new Magician
@@ -51,7 +51,7 @@ namespace MagicBaseDataTests2.Controllers
         }
 
         [TestMethod]
-        public void CheekTheSamePersonTest()
+        public void CheekTheSamePersonTest_NoSamePersons()
         {
             var controller = Controller.GetInstance();
             controller.Create(new Magician
@@ -113,7 +113,7 @@ namespace MagicBaseDataTests2.Controllers
         }
 
         [TestMethod]
-        public void IndexSearchTest()
+        public void IndexSearchTest_FindMagician()
         {
             var controller = Controller.GetInstance();
             controller.Create(new Magician
@@ -156,7 +156,7 @@ namespace MagicBaseDataTests2.Controllers
         }
 
         [TestMethod]
-        public void IndexSearchTest2()
+        public void IndexSearchTest_MagicianNotFound()
         {
             var controller = Controller.GetInstance();
             controller.Create(new Magician
@@ -185,7 +185,7 @@ namespace MagicBaseDataTests2.Controllers
         }
 
         [TestMethod]
-        public void IndexSearchTest3()
+        public void IndexSearchTest_NoMagicianInDatabase()
         {
             var controller = Controller.GetInstance();
             var expectedResult = " ";
