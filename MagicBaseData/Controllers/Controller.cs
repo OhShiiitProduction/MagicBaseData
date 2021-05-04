@@ -114,9 +114,10 @@ namespace MagicBaseData.Controllers
         {
             for (var i = 0; i < data.Count; i++)
             {
-                for (var j = 0; j < data.Count; j++)
+                if (i + 1 >= data.Count) continue;
+                for (var j = i + 1; j < data.Count; j++)
                 {
-                    if (data[i]==data[j])
+                    if (data[i].Equals(data[j]))
                     {
                         data.RemoveAt(i);
                     }

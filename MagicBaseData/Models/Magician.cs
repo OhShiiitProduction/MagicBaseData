@@ -10,7 +10,7 @@ using MagicBaseData.Interfaces;
 
 namespace MagicBaseData.Models
 {
-    public class Magician: INotifyPropertyChanged, System.ComponentModel.IDataErrorInfo
+    public class Magician: INotifyPropertyChanged, IDataErrorInfo
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -39,6 +39,18 @@ namespace MagicBaseData.Models
         public override string ToString()
         {
             return Id+","+Name + "," + power + "," + Speed + "," + HitPoints + "," + KindOfMagic.ToString();
+        }
+
+        public override bool Equals(object? obj)
+        {
+            if (!(obj is Magician))
+            {
+                return false;
+            }
+
+            var objj = (Magician) obj;
+
+            return this.ToString().Equals(objj.ToString());
         }
 
         public Dictionary<string, string> ErrorCollection { get; private set; } = new Dictionary<string, string>();
